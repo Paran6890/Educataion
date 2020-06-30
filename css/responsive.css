@@ -1,0 +1,290 @@
+@media(min-width: 320px) and (max-width: 575px){
+    /* header top css start */
+   
+
+    #header-top .text{
+        display: block;
+        margin-bottom: 5px;
+
+    }
+    #header-top .text .mb{
+        margin-bottom: 10px;
+    }
+
+
+    /* header top css end */
+
+
+    /* navbar css start */
+    
+    #navber nav ul{
+        text-align: center;
+    }
+    /* navbar css end */
+
+    /* header top css end */
+
+/* banner part css start */
+
+
+    #banner-part .banner .overlay{
+        padding: 30px 0;
+    }
+
+#banner-part .banner .overlay .text h1{
+    font-size: 22px;
+}
+#banner-part .banner .overlay .text p{
+    width: auto;
+}
+#banner-part .banner .overlay .text a{
+    padding: 10px;
+}
+
+/* banner part css start */
+
+
+/* about part css start */
+#about-part .text{
+    text-align: center;
+}
+
+#about-part .text h2{
+    font-size: 30px;
+}
+
+#about-part .pd{
+padding-top: 25px;
+}
+/* about part css end */
+
+
+/* course part css start */
+
+#counter-part .overlay .text h4 span{
+    font-size: 50px;
+}
+#counter-part .overlay .text p{
+    width: auto;
+    font-size: 16px;
+}
+#counter-part .overlay .text a{
+    padding: 10px 30px;
+}
+/* course part css end */
+
+/* news part css start */
+#news-part .one .img{
+    margin-top: 20px;
+}
+/* news part css end */
+
+/* testimonial part css start */
+#testimonial-part{
+    padding: 30px 0;
+}
+
+#testimonial-part .testimonial{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#testimonial-part .testimonial p{
+    width: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+#testimonial-part .testimonial h4{
+    margin-top: 10px;
+}
+#testimonial-part .testimonial ul{
+    margin-top: 15px;
+}
+
+
+/* testimonial part css end */
+
+
+/* question part css start */
+#question-part .question-text h2{
+    font-size: 30px;
+}
+
+#question-part .question-text p{
+    width: auto;
+}
+#question-part .question-img-text{
+    top: 60%;
+    left: 0;
+}
+#question-part .question-img-text p{
+    width: auto;
+}
+#question-part .question-img-text form input{
+    font-size: 11px;
+}
+
+#question-part .question-img-text form button{
+    padding: 5px 10px;
+    top: 0;
+    right: 0;
+    border-radius: 3px;
+}
+
+/* question part css end */
+
+}
+
+@media(min-width: 576px) and (max-width: 767px){
+/* header top css start */
+#header-top p{
+ text-align: center;       
+        
+}
+/* header top css end */
+
+   /* navbar css start */
+    
+   #navber nav ul{
+    text-align: center;
+}
+/* navbar css end */
+
+
+/* banner css start */
+
+#banner-part .banner .overlay{
+    padding: 50px 0;
+}
+
+#banner-part .banner .overlay .text h1{
+font-size: 30px;
+}
+#banner-part .banner .overlay .text p{
+width: auto;
+font-size: 16px;
+}
+#banner-part .banner .overlay .text a{
+padding: 15px;
+}
+/* banner css end */
+
+/* about part css start */
+#about-part .text{
+    text-align: center;
+}
+
+#about-part .text h2{
+    font-size: 40px;
+}
+
+#about-part .pd{
+padding-top: 25px;
+}
+
+/* about part css end */
+
+/* counter part css start */
+#counter-part .overlay .text p{
+    width: auto;
+    font-size: 16px;
+}
+
+/* counter part css end */
+
+/* news part css start */
+#news-part .one .img{
+    margin-top: 20px;
+}
+/* news part css end */
+
+
+/* testimonial part css start */
+
+#testimonial-part .testimonial p{
+    width: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+/* testimonial part css end */
+
+
+/* question part css start */
+#question-part .question-text h2{
+    font-size: 30px;
+}
+
+#question-part .question-text p{
+    width: auto;
+}
+#question-part .question-img-text{
+    top: 60%;
+    left: 0;
+}
+#question-part .question-img-text p{
+    width: auto;
+}
+#question-part .question-img-text form input{
+    font-size: 20px;
+}
+
+#question-part .question-img-text form button{
+    padding: 5px 10px;
+    top: 0;
+    right: 0;
+    border-radius: 3px;
+}
+
+/* question part css end */
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+/* banner css start */
+
+    #banner-part .banner .overlay{
+    padding: 50px 0;
+}
+
+    #banner-part .banner .overlay .text h1{
+    font-size: 50px;
+}
+
+/* banner css end */
+    /* about part css start */
+    #about-part .text h2{
+        font-size: 35px;
+    }
+    #about-part .text a{
+        margin-top: 0;
+        padding: 10px 20px;
+    }
+    /* about part css end */
+    /* question part css start */
+    #question-part .question-text h2{
+        font-size: 30px;
+    }
+    
+    #question-part .question-text p{
+        width: auto;
+    }
+    #question-part .question-img-text{
+        top: 60%;
+        left: 0;
+    }
+    #question-part .question-img-text p{
+        width: auto;
+    }
+    #question-part .question-img-text form input{
+        font-size: 20px;
+    }
+    
+    #question-part .question-img-text form button{
+        padding: 5px 10px;
+        top: 0;
+        right: 0;
+        border-radius: 3px;
+    }
+    /* question part css end */
+
+}
