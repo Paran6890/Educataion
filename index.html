@@ -22,25 +22,26 @@
   <section id="header-top">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-xs-12">
+        <div class="col-lg-4 col-12">
           <p>Welcome to Educate HTML Template</p>
         </div>
-        <div class="col-lg-6 col-md-6 col-xs-12">
+        <div class="col-lg-8 col-12">
           <div class="text">
-            <div class="one mb">
-              <i class="fa fa-phone" aria-hidden="true"></i>
+           <ul>
+             <li>
+               <i class="fa fa-phone" aria-hidden="true"></i>
               <p>0084 - 9622 26602</p>
-            </div>
-            <div class="two mb">
-              <i class="fa fa-envelope" aria-hidden="true"></i>
-              <p>info@educate.com</p>
-            </div>
-            <div class="three mb">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-              <i class="fa fa-youtube-play you" aria-hidden="true"></i>
-            </div>
+            </li>
+              <li><i class="fa fa-envelope" aria-hidden="true"></i>
+                <p>info@educate.com</p>
+              </li>
+                <li>
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  <i class="fa fa-youtube-play you" aria-hidden="true"></i>
+                </li>
+           </ul>
           </div>
         </div>
       </div>
@@ -452,9 +453,9 @@
       </div>
     </div>
   </section>
-
-
   <!-- news part end-->
+
+
   <!-- brand part start -->
   <section id="brand-part">
     <div class="brand">
@@ -545,10 +546,12 @@
               <h2> newsletter </h2>
               <p>Subscribe now and receive weekly newsletter with educational materials, new courses, interesting posts,
                 popular books and much more!</p>
-              <form>
-                <input type="email" placeholder="Your Email Here">
-                <button type="submit">Subscribe</button>
-              </form>
+               <div class="input-group mb-3 w-75 mx-auto">
+                  <input type="email" class="form-control" placeholder="Your Email" aria-label="Your Email" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary bg-warning " type="button" id="button-addon2">Subscribe</button>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
@@ -646,10 +649,13 @@
           <div class="foter-link">
             <h3>quick contact</h3>
             <form>
-              <input type="text" placeholder="Name">
-              <input type="email" placeholder="Email">
-              <textarea placeholder="write massege............" id="comments" cols="30" rows="10"></textarea>
-              <a href="#">Send</a>
+              <div class="form-group pt-5">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="form-group ">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write your massege..." rows="3"></textarea>
+                <button type="submit" class="btn btn-warning form-control w-25 mt-2">SEND</button>
+              </div>
             </form>
           </div>
         </div>

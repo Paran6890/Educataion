@@ -31,76 +31,39 @@ h1,h2,h3,h4,h5,h6{
     font-size: 13px;
     color: #262626;
 }
-
-#header-top .text{
-    display: flex;
-    justify-content: space-between;
+#header-top .text ul{
+    text-align: right;
+}
+#header-top .text ul li{
+    display: inline-block;
+  margin-left: 30px;
 }
 
-#header-top .text .one i{
+#header-top .text  ul li i{
+    margin-right: 5px;
     font-size: 13px;
+    transition: .4s;
 }
 
-#header-top .text .one{
-    position: relative;
-}
 
-#header-top .text .one p{
+
+#header-top .text  ul li p{
+    display: inline-block;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     color: #262626;
-    position: absolute;
-    top: 4px;
-    left: 22px;
-    width: 112px;
-    transition: .4s;
 }
-#header-top .text .one p:hover{
+#header-top .text ul li p:hover{
     color: orange;
     cursor: pointer;
 }
 
-#header-top .text .two i{
-    font-size: 13px;
-}
-
-#header-top .text .two{
-    position: relative;
-}
-
-#header-top .text .two p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
-    color: #262626;
-    position: absolute;
-    top: 4px;
-    left: 22px;
-    width: 112px;
-    transition: .4s;
-}
-
-#header-top .text .two p:hover{
+#header-top .text ul li i:hover{
     color: orange;
     cursor: pointer;
 }
-
-
-
-#header-top .text .three{
-    font-size: 13px;
-    color: #3c32c9;
-}
-#header-top .text .three .you{
+#header-top .text ul li .you:hover{
     color: red;
-}
-
-#header-top .text .three i{
-margin-right: 10px;
-transition: .4s;
-}
-
-#header-top .text .three i:hover{
-    color: orange;
     cursor: pointer;
 }
 
@@ -115,6 +78,10 @@ transition: .4s;
 nav{
     width: 100%;
     
+}
+nav button{
+    outline: 0 !important;
+    background: transparent !important;
 }
 nav button i{
     margin-top: 15px;
@@ -278,7 +245,7 @@ background-size: cover;
 
 #banner-part .prev{
     position: absolute;
-    left: 100px;
+    left: 50px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 30px;
@@ -291,10 +258,12 @@ background-size: cover;
     text-align: center;
     border-radius: 50%;
     border: 2px solid #fff;
+    transition: .4s;
+
 }
 #banner-part .next{
     position: absolute;
-    right: 100px;
+    right: 50px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 30px;
@@ -307,7 +276,20 @@ background-size: cover;
     text-align: center;
     border-radius: 50%;
     border: 2px solid #fff;
+    transition: .4s;
 }
+
+#banner-part .prev:hover{
+    background: #ffaa30;
+    color: #fff;
+border: 1px solid #ffaa30;
+}
+#banner-part .next:hover{
+    background: #ffaa30;
+    color: #fff;
+border: 1px solid #ffaa30;
+}
+
 
 /* banner css end */
 
@@ -826,25 +808,15 @@ margin: 0 auto;
 }
 
 
-#question-part .question-img-text form input{
-    font-size: 30px;
-    border: 1px solid #9f9c9a;
-}
-#question-part .question-img-text form button{
-    position: absolute;
-     top: 0;
-    right: 68px;
-    font-size: 15px;
+
+#question-part .question-img-text button{
     color: #fff;
-    padding: 12px 30px;
-    background: #ffaa30;
-    border: 0;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    transition: .4s;
+   border: 0 !important;
+   transition: .4s !important;
 }
-#question-part .question-img-text form button:hover{
-    background: #428bdc;
+#question-part .question-img-text button:hover{
+    background: #428bdc !important;
+   
 }
 
 
@@ -997,52 +969,27 @@ position: absolute;
 }
 
 
-form{
-    margin-top: 40px;
-    position: relative;
-}
- 
 input{
-    color:#fff;
-    margin-bottom: 10px;
-    font-size: 16px;
-    background: transparent;
-    border: 1px solid #777777;
-}
-input::placeholder{
-    color: #777777;
+   
+    background: transparent !important;
+    
 }
 
-#comments{
-    color: #fff;
-    resize: none;
-    height: 100px;
-    width: 210px;
-    background-color: transparent;
-    border: 1px solid #777777;
+textarea{
+    
+    background: transparent !important;
+  
 }
 
-#comments::placeholder{
-    color: #777777;
-}
-form a{
-position: absolute;
-bottom: 0;
-left: 0;
-padding: 5px 10px;
-display: inline-block;
-font-family:'Oswald', sans-serif;
-font-size: 20px;
-color: #fff;
-background: #ffaa30;
-border-radius: 3px;
-text-transform: uppercase;
-transition: .4s;
+.form-group button{
+    border: 0 !important;
+    color: #fff !important;
+    transition: .4s !important;
 }
 
- form a:hover{
-    background: #3c32c9;
-    color: #fff;
+.form-group button:hover{
+    background: #3c32c9 !important;
+
 }
 
 

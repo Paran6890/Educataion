@@ -1,16 +1,12 @@
 @media(min-width: 320px) and (max-width: 575px){
     /* header top css start */
    
-
-    #header-top .text{
-        display: block;
-        margin-bottom: 5px;
-
-    }
-    #header-top .text .mb{
-        margin-bottom: 10px;
-    }
-
+#header-top{
+    text-align: center;
+}
+#header-top .text ul{
+    text-align: center;
+}
 
     /* header top css end */
 
@@ -137,7 +133,11 @@ padding-top: 25px;
 
 @media(min-width: 576px) and (max-width: 767px){
 /* header top css start */
-#header-top p{
+#header-top{
+ text-align: center;       
+        
+}
+#header-top .text ul{
  text-align: center;       
         
 }
@@ -240,6 +240,17 @@ padding-top: 25px;
 }
 
 @media(min-width: 768px) and (max-width: 991px){
+/* header top */
+#header-top{
+    text-align: center;       
+           
+   }
+   #header-top .text ul{
+    text-align: center;       
+           
+   }
+/* header top */
+
 /* banner css start */
 
     #banner-part .banner .overlay{
